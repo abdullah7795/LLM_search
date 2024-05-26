@@ -1,0 +1,12 @@
+phidata
+duckdb
+exa_py 
+yfinance 
+nest_asyncio 
+openai 
+duckduckgo-search 
+sqlalchemy 
+pgvector 
+psycopg 
+pypdf
+ollama
