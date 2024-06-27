@@ -52,7 +52,7 @@ def setup_llm_search(
     if shell_tools:
         tools.append(ShellTools())
         extra_instructions.append(
-            "You can use the `run_shell_command` tool to run shell commands. For example, `run_shell_command(args='ls')`."
+            " You can use the `run_shell_command` tool to run shell commands. For example, `run_shell_command(args='ls')`."
         )
     if file_tools:
         tools.append(FileTools(base_dir=cwd))
